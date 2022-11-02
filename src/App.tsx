@@ -10,7 +10,7 @@ function App() {
       Szerokość:
       <Range setFunc={setMyWidth}/>
       Wysokość:
-      <Range setFunc={setMy Height}/>
+      <Range setFunc={setMyHeight}/>
       <div>
         <div style={{width: myWidth*2+'px', height: myHeight*2+'px', border: '1px solid black'}}></div>
       </div>
